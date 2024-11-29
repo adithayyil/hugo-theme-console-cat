@@ -3,8 +3,7 @@
 <h1>About</h1>
 
 <p>
-Console is a minimal, responsive and light theme for Hugo inspired by Linux console.  <a href="about/">(more)</a>
-</p>
+    I'm Adi, an undergraduate Math student at the University of Waterloo. <a href="about/">(More)</a></p>
 <br/>
 
 <h1>Latest posts</h1>
@@ -16,7 +15,7 @@ Console is a minimal, responsive and light theme for Hugo inspired by Linux cons
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
+                {{ .Params.description }}
             </p>
         </div>    
     {{ end }}
