@@ -1,4 +1,4 @@
-# Hugo Theme: Console
+# Hugo Theme: Console (with added catpucchin mocha theme!)
 
 A minimal and responsive Hugo theme inspired by the system console, crafted for optimal performance with an average page load time of under one second.
 
